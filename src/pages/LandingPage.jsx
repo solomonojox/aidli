@@ -25,7 +25,6 @@ const LandingPage = () => {
       {/* Stats Section */}
       <StatsBanner />
 
-
       {/* About Section */}
       <About />
 

@@ -68,23 +68,21 @@ const Services = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 px-4">
                     {services.map((service, index) => (
-                        <motion.div
+                        <div
                             key={index}
-                            initial="hidden"
-                            whileInView="visible"
-                            whileHover="hover"
-                            viewport={{ once: true, margin: "-50px" }}
+                            // viewport={{ once: true, margin: "-50px" }}
                             variants={cardVariants}
-                            className="bg-white lg:w-[350px] rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col"
+                            className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col hover:scale-105"
                         >
                             <div className="h-48 overflow-hidden">
-                                <motion.img 
+                                {/* <motion.img 
                                     src={service.image}
                                     alt={service.title}
                                     className="w-full h-full object-cover"
                                     whileHover={{ scale: 1.1 }}
                                     transition={{ duration: 0.5 }}
-                                />
+                                /> */}
+                                <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-all" />
                             </div>
                             <div className="p-6 flex-1 flex flex-col">
                                 <h4 className="font-bold text-xl mb-3 text-gray-800">{service.title}</h4>
@@ -97,7 +95,7 @@ const Services = () => {
                                     Learn more
                                 </motion.button>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>

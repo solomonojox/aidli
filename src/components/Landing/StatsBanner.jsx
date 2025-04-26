@@ -14,7 +14,7 @@ export default function StatsBanner() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
           {/* Card 1 */}
-          <div className="bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+          <div className="bg-white p-10 rounded-3xl hover:shadow-md transition duration-300 ease-in-out">
             <div className="text-5xl font-extrabold text-blue-600 mb-4">
               {statsInView && <CountUp end={97} suffix="%" duration={2.5} />}
             </div>
@@ -22,7 +22,7 @@ export default function StatsBanner() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+          <div className="bg-white p-10 rounded-3xl hover:shadow-md transition duration-300 ease-in-out">
             <div className="text-5xl font-extrabold text-green-500 mb-4">
               {statsInView && <CountUp end={15} suffix="+" duration={2.5} />}
             </div>
@@ -30,7 +30,7 @@ export default function StatsBanner() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+          <div className="bg-white p-10 rounded-3xl hover:shadow-md transition-all duration-300 ease-in-out">
             <div className="text-5xl font-extrabold text-purple-600 mb-4">
               {statsInView && <CountUp end={24} duration={2.5} />}
             </div>
