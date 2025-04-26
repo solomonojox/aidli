@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { motion } from 'framer-motion';
-
 import { Check } from 'lucide-react';
 
 const Pricing = () => {
@@ -9,6 +8,7 @@ const Pricing = () => {
         hidden: { opacity: 0, y: 20 },
         visible: { opacity: 1, y: 0 }
     };
+
     return (
         <section className="py-20 px-4">
             <div className="max-w-6xl mx-auto">
@@ -22,8 +22,9 @@ const Pricing = () => {
                     <h2 className="text-3xl font-bold mb-6 text-center">FLEXIBLE PRICING PLANS</h2>
                     <h3 className="text-xl font-semibold mb-16 text-center text-gray-600">CHOOSE THE RIGHT FIT</h3>
 
-                    <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex flex-col">
+                    <div className="flex overflow-x-auto gap-8 md:grid md:grid-cols-3 scroll-snap-x snap-mandatory p-4">
+                        {/* Starter Plan */}
+                        <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex flex-col snap-start min-w-[300px] md:min-w-0">
                             <h4 className="text-2xl font-bold mb-4">Starter</h4>
                             <p className="text-gray-600 mb-6">Perfect for small businesses just getting started</p>
                             <div className="text-4xl font-bold mb-2">$397<span className="text-lg font-normal text-gray-600">/mo</span></div>
@@ -53,7 +54,8 @@ const Pricing = () => {
                             </motion.button>
                         </div>
 
-                        <div className="bg-blue-600 text-white p-8 rounded-xl shadow-lg flex flex-col relative">
+                        {/* Professional Plan */}
+                        <div className="bg-blue-600 text-white p-8 rounded-xl shadow-lg flex flex-col relative snap-start min-w-[300px] md:min-w-0">
                             <div className="absolute -top-4 left-0 w-full flex justify-center">
                                 <span className="bg-yellow-400 text-blue-900 text-sm font-bold px-4 py-1 rounded-full">MOST POPULAR</span>
                             </div>
@@ -90,7 +92,8 @@ const Pricing = () => {
                             </motion.button>
                         </div>
 
-                        <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex flex-col">
+                        {/* Enterprise Plan */}
+                        <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex flex-col snap-start min-w-[300px] md:min-w-0">
                             <h4 className="text-2xl font-bold mb-4">Enterprise</h4>
                             <p className="text-gray-600 mb-6">For established businesses with complex needs</p>
                             <div className="text-4xl font-bold mb-2">$1497<span className="text-lg font-normal text-gray-600">/mo</span></div>
