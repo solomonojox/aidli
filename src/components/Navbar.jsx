@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoSchoolSharp } from "react-icons/io5";
+import imageAsset from "../assets/imageAsset";
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <div className="text-2xl font-bold text-blue-600">AIDLI</div>
+              <img src={imageAsset.logo_long} alt="" className="w-28"/>
             </div>
 
             {/* Desktop Navigation */}
