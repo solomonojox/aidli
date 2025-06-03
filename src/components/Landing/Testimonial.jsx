@@ -32,7 +32,7 @@ const Testimonial = () => {
 
   return (
     <div>
-      <section id="testimonials" className="bg-blue-50 py-20 px-4">
+      <section id="testimonials" className="bg-secondary/15 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial="hidden"

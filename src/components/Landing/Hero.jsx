@@ -47,7 +47,7 @@ const Hero = () => {
         variants={container}
         className="min-h-screen pb-20 px-4 relative flex flex-col justify-center items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(30, 58, 138, 0.65), rgba(30, 58, 138, 0.8)), url(${imageAsset.hero})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)), url(${imageAsset.hero})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed"
@@ -56,7 +56,7 @@ const Hero = () => {
         {/* Floating decorative elements */}
         <motion.div
           animate={floatingAnim}
-          className="absolute top-20 left-10 w-8 h-8 rounded-full bg-blue-400 opacity-20"
+          className="absolute top-20 left-10 w-8 h-8 rounded-full bg-button opacity-20"
         />
         <motion.div
           animate={{ ...floatingAnim, y: [0, -25, 0] }}
@@ -70,7 +70,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <motion.div variants={item}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white leading-tight">
-              MEET <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-indigo-300">AIDLI</span>
+              MEET <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">AIDLI</span>
             </h1>
           </motion.div>
 
@@ -93,7 +93,7 @@ const Hero = () => {
                 boxShadow: "0 10px 25px -5px rgba(59, 130, 246, 0.4)"
               }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold py-4 px-8 rounded-full hover:shadow-lg transition-all flex items-center justify-center group"
+              className="bg-gradient-to-r from-button to-primary text-white font-bold py-4 px-8 rounded-full hover:shadow-lg transition-all flex items-center justify-center group"
             >
               BOOK A FREE DISCOVERY CALL
               <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -135,7 +135,7 @@ const Hero = () => {
           initial={{ backgroundPosition: "0% 50%" }}
           animate={{
             backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
-            backgroundImage: "linear-gradient(90deg, #3b82f6, #8b5cf6, #3b82f6)",
+            backgroundImage: "linear-gradient(90deg, #f17c56, #94ada7, #f17c56)",
             backgroundSize: "200% 100%"
           }}
           transition={{

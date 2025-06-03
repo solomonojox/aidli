@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
       color: 'blue',
       icon: (
         <svg
-          className="w-10 h-10 text-blue-500"
+          className="w-10 h-10 text-primary"
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
@@ -126,11 +126,11 @@ const WhyChooseUs = () => {
   const getColorClasses = (color) => {
     const colorMap = {
       blue: {
-        bg: 'bg-blue-500',
+        bg: 'bg-primary',
         light: 'bg-blue-100',
-        text: 'text-blue-500',
-        border: 'border-blue-500',
-        hover: 'hover:bg-blue-600',
+        text: 'text-primary',
+        border: 'border-primary',
+        hover: 'hover:bg-secondary',
         shadow: 'shadow-blue-200'
       },
       green: {
@@ -162,7 +162,7 @@ const WhyChooseUs = () => {
   };
 
   return (
-    <section id="why-us" className="relative py-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
+    <section id="whyus" className="relative py-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
       {/* Decorative shapes */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full opacity-40 transform -translate-x-1/2 -translate-y-1/2"></div>
@@ -179,13 +179,13 @@ const WhyChooseUs = () => {
         className="relative z-10 max-w-6xl mx-auto px-4"
       >
         <motion.div variants={itemVariants} className="text-center mb-20">
-          <span className="inline-block px-4 py-1 mb-4 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold">
+          <span className="inline-block px-4 py-1 mb-4 rounded-full bg-primary/20 text-primary text-sm font-semibold">
             WHY CHOOSE US
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-button bg-clip-text text-transparent">
             The Aidli Advantage
           </h2>
-          <div className="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Discover how our approach sets us apart and delivers exceptional value to your business
           </p>
@@ -324,9 +324,9 @@ const WhyChooseUs = () => {
               business needs."
             </p>
             <div className="mt-6">
-              <span className="inline-block h-1 w-16 bg-blue-500 mx-auto"></span>
+              <span className="inline-block h-1 w-16 bg-primary mx-auto"></span>
             </div>
-            <p className="mt-4 font-semibold text-blue-600">Meet Your New Business Partner</p>
+            <p className="mt-4 font-semibold text-button">Meet Your New Business Partner</p>
           </div>
         </motion.div>
       </motion.div>

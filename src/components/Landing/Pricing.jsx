@@ -32,15 +32,15 @@ const Pricing = () => {
 
                             <ul className="space-y-3 mb-8 flex-grow">
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Email & calendar management</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Basic administrative support</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Research assistance</span>
                                 </li>
                             </ul>
@@ -48,16 +48,16 @@ const Pricing = () => {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition"
+                                className="w-full bg-secondary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary transition"
                             >
                                 Get Started
                             </motion.button>
                         </div>
 
                         {/* Professional Plan */}
-                        <div className="bg-blue-600 text-white p-8 rounded-xl shadow-lg flex flex-col relative snap-start min-w-[300px] md:min-w-0">
+                        <div className="bg-secondary text-white p-8 rounded-xl shadow-lg flex flex-col relative snap-start min-w-[300px] md:min-w-0">
                             <div className="absolute -top-4 left-0 w-full flex justify-center">
-                                <span className="bg-yellow-400 text-blue-900 text-sm font-bold px-4 py-1 rounded-full">MOST POPULAR</span>
+                                <span className="bg-primary text-white text-sm font-bold px-4 py-1 rounded-full">MOST POPULAR</span>
                             </div>
                             <h4 className="text-2xl font-bold mb-4">Professional</h4>
                             <p className="text-blue-100 mb-6">Ideal for growing businesses with consistent needs</p>
@@ -66,19 +66,19 @@ const Pricing = () => {
 
                             <ul className="space-y-3 mb-8 flex-grow">
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-yellow-400 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-white mr-2 mt-1" />
                                     <span>Everything in Starter</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-yellow-400 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-white mr-2 mt-1" />
                                     <span>Social media management</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-yellow-400 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-white mr-2 mt-1" />
                                     <span>Customer support</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-yellow-400 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-white mr-2 mt-1" />
                                     <span>Basic content creation</span>
                                 </li>
                             </ul>
@@ -86,7 +86,7 @@ const Pricing = () => {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="w-full bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-blue-50 transition"
+                                className="w-full bg-white text-secondary font-bold py-3 px-6 rounded-lg hover:bg-blue-50 transition"
                             >
                                 Get Started
                             </motion.button>
@@ -101,19 +101,19 @@ const Pricing = () => {
 
                             <ul className="space-y-3 mb-8 flex-grow">
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Everything in Professional</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Project management</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Advanced content creation</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <Check className="h-5 w-5 text-green-500 mr-2 mt-1" />
+                                    <Check className="h-5 w-5 text-secondary mr-2 mt-1" />
                                     <span>Dedicated account manager</span>
                                 </li>
                             </ul>
@@ -121,7 +121,7 @@ const Pricing = () => {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition"
+                                className="w-full bg-secondary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary transition"
                             >
                                 Get Started
                             </motion.button>
@@ -129,7 +129,7 @@ const Pricing = () => {
                     </div>
 
                     <p className="text-center mt-8 text-gray-600">
-                        Need a custom solution? <a href="#" className="text-blue-600 font-semibold hover:underline">Contact us</a> for tailored packages.
+                        Need a custom solution? <a href="#" className="text-secondary font-semibold hover:underline">Contact us</a> for tailored packages.
                     </p>
                 </motion.div>
             </div>

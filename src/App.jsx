@@ -7,6 +7,7 @@ function App() {
     <Routes>
       {/* <Route path="/" element={<UpgradePage />} /> */}
       <Route path="/" element={<LandingPage />} />
+      <Route path="/about" element={<LandingPage />} />
     </Routes>
   )
 }

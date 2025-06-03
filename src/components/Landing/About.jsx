@@ -12,8 +12,8 @@ const About = () => {
   return (
     <div className="relative overflow-hidden bg-gray-50">
       {/* Static Soft Shapes */}
-      <div className="absolute top-[-50px] left-[-50px] w-96 h-96 bg-blue-100 rounded-[50%] rotate-12 z-0"></div>
-      <div className="absolute bottom-[-80px] right-[-80px] w-[400px] h-[400px] bg-yellow-100 rounded-[60%] rotate-45 z-0"></div>
+      <div className="absolute top-[-50px] left-[-50px] w-96 h-96 bg-primary/25 rounded-[50%] rotate-12 z-0"></div>
+      <div className="absolute bottom-[-80px] right-[-80px] w-[400px] h-[400px] bg-secondary/25 rounded-[60%] rotate-45 z-0"></div>
 
       <section id="about" className="max-w-7xl mx-auto py-24 px-4 relative z-10">
         <motion.div
@@ -44,10 +44,10 @@ const About = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <h2 className="text-4xl font-extrabold mb-6 text-gray-800 text-center md:text-left">
-                About <span className="text-blue-600">Aidli</span>
+                About <span className="text-secondary">Aidli</span>
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-5">
-                At <strong className="text-blue-500">Aidli</strong>, we help busy entrepreneurs, coaches, and small business owners reclaim their time with professional virtual assistants trained to handle the tasks you don't have time for.
+                At <strong className="text-secondary">Aidli</strong>, we help busy entrepreneurs, coaches, and small business owners reclaim their time with professional virtual assistants trained to handle the tasks you don't have time for.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-5">
                 We understand the challenges of growing a business while managing day-to-day operations. Our handpicked team becomes an extension of your business, managing everything from admin tasks to customer care.

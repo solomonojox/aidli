@@ -11,7 +11,7 @@ const Cta = () => {
 
   return (
     <div>
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-4 text-center mb-10">
+      <section className="bg-gradient-to-r from-primary to-primary text-white py-20 px-4 text-center mb-10">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -26,7 +26,7 @@ const Cta = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-blue-50 transition flex items-center justify-center"
+              className="bg-white text-primary font-bold py-4 px-8 rounded-lg hover:bg-secondary hover:text-white transition flex items-center justify-center"
             >
               BOOK A FREE DISCOVERY CALL
               <ChevronRight className="ml-2 h-5 w-5" />
@@ -34,7 +34,7 @@ const Cta = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-transparent border-2 border-white font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition"
+              className="bg-transparent border-2 border-white font-bold py-4 px-8 rounded-lg hover:bg-secondary transition"
             >
               HIRE A VA IN 24 HOURS
             </motion.button>

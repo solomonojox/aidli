@@ -23,8 +23,10 @@
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 120rem;
 
-  --color-primary: #FF4E9A;
-  --color-secondary: #facc15
+  --color-primary: #d0a68e;
+  --color-secondary: #94ada7;
+  --color-button: #f17c56;
+  --color-links: #94ada7;
       /* ... */
 }
 

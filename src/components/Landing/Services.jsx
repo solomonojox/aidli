@@ -61,8 +61,8 @@ const Services = () => {
                     transition={{ duration: 0.6 }}
                     className="mb-16"
                 >
-                    <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-center text-gray-800">Our Services</h2>
-                    <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mb-4"></div>
+                    <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-center text-button">Our Services</h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-secondary to-secondary mx-auto mb-4"></div>
                     <h3 className="text-lg font-medium text-center text-gray-500 uppercase tracking-wider">What We Do Best</h3>
                 </motion.div>
 
@@ -85,12 +85,12 @@ const Services = () => {
                                 <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-all" />
                             </div>
                             <div className="p-6 flex-1 flex flex-col">
-                                <h4 className="font-bold text-xl mb-3 text-gray-800">{service.title}</h4>
+                                <h4 className="font-bold text-xl mb-3 text-primary">{service.title}</h4>
                                 <p className="text-gray-600 mb-4 flex-1">{service.description}</p>
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="mt-auto bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 rounded-lg font-medium self-start"
+                                    className="mt-auto bg-gradient-to-r from-button to-primary text-white px-4 py-2 rounded-lg font-medium self-start"
                                 >
                                     Learn more
                                 </motion.button>
