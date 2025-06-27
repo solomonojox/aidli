@@ -90,7 +90,7 @@ const Services = () => {
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="mt-auto bg-gradient-to-r from-button to-primary text-white px-4 py-2 rounded-lg font-medium self-start"
+                                    className="mt-auto bg-button text-white px-4 py-2 rounded-lg font-medium self-start"
                                 >
                                     Learn more
                                 </motion.button>

@@ -317,7 +317,7 @@ const WhyChooseUs = () => {
           variants={itemVariants}
           className="mt-20 text-center"
         >
-          <div className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl max-w-4xl mx-auto border border-gray-100 shadow-lg">
+          <div className="p-8 bg-overlay/15 rounded-xl max-w-4xl mx-auto border border-gray-100 shadow-lg">
             <p className="text-xl md:text-2xl font-medium text-gray-700 italic">
               "Your business deserves support that's both professional and personal.
               At Aidli, we build real working relationships that scale with your
