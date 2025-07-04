@@ -60,9 +60,9 @@ const Pricing = () => {
                                 <span className="bg-primary text-white text-sm font-bold px-4 py-1 rounded-full">MOST POPULAR</span>
                             </div>
                             <h4 className="text-2xl font-bold mb-4">Professional</h4>
-                            <p className="text-blue-100 mb-6">Ideal for growing businesses with consistent needs</p>
-                            <div className="text-4xl font-bold mb-2">$797<span className="text-lg font-normal text-blue-200">/mo</span></div>
-                            <p className="text-blue-100 mb-8">25 hours of dedicated support</p>
+                            <p className="text-white mb-6">Ideal for growing businesses with consistent needs</p>
+                            <div className="text-4xl font-bold mb-2">$797<span className="text-lg font-normal text-secondary">/mo</span></div>
+                            <p className="text-white mb-8">25 hours of dedicated support</p>
 
                             <ul className="space-y-3 mb-8 flex-grow">
                                 <li className="flex items-start">

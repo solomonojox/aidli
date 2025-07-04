@@ -94,14 +94,14 @@ const Navbar = () => {
                 key={item.id}
                 href={`#${item.id}`}
                 onClick={() => setIsMenuOpen(false)}
-                className={`block px-3 py-2 rounded-md text-gray-600 hover:bg-blue-50 hover:text-secondary ${
+                className={`block px-3 py-2 rounded-md text-gray-600 hover:bg-white hover:text-secondary ${
                   active === item.id ? "text-secondary" : ""
                 }`}
               >
                 {item.name}
               </a>
             ))}
-            <button className="w-full text-left px-3 py-2 bg-secondary text-white rounded-md hover:bg-blue-700 transition">
+            <button className="w-full text-left px-3 py-2 bg-secondary text-white rounded-md hover:bg-secondary/75 transition">
               Get Started
             </button>
           </div>

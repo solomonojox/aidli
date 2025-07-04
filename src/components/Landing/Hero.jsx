@@ -75,13 +75,13 @@ const Hero = () => {
           </motion.div>
 
           <motion.div variants={item}>
-            <p className="text-xl md:text-3xl mb-8 text-blue-100 font-light">
+            <p className="text-xl md:text-3xl mb-8 text-white font-light">
               Your <span className="font-medium text-white">Partner in Productivity</span>
             </p>
           </motion.div>
 
           <motion.div variants={item}>
-            <p className="text-lg md:text-xl font-medium text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl font-medium text-white mb-12 max-w-2xl mx-auto leading-relaxed">
               Reliable Virtual Assistants. <span className="text-white font-semibold">Real Results.</span> Transform your workflow with our dedicated support.
             </p>
           </motion.div>
@@ -123,7 +123,7 @@ const Hero = () => {
             }
           }}
         >
-          <div className="flex flex-col items-center text-blue-200 group cursor-pointer" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
+          <div className="flex flex-col items-center text-white-200 group cursor-pointer" onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
             <span className="mb-2 text-sm">Scroll Down</span>
             <ArrowDown className="h-6 w-6 group-hover:translate-y-1 transition-transform" />
           </div>
